@@ -20,3 +20,6 @@ This OpenAPI specification can then be used to generate a **Gemini API Client Li
 ## Requirements to run application
 
 - Java 21+
+- Download https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta&key=$GOOGLE_API_KEY file,
+    where GOOGLE_API_KEY you can generate with Google AI Studio following by the link https://aistudio.google.com/app/prompts/new_chat  
+    Save downloaded file to by path ".\documents\generativelanguage-discovery.json"
